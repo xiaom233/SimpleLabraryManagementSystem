@@ -1,0 +1,98 @@
+﻿body {
+    font-family: sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+.spittleList ul {
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.spittleList ul li:first-child {
+    border-top: 0px;
+}
+
+.spittleList ul li {
+    font-size: 14pt;
+    border-top: 1px solid #cccccc;
+    padding-top: 12px;
+    padding-left: 20px;
+}
+
+.spittleTime {
+    font-size: 10pt;
+    padding-top: 12px;
+}
+
+.spittleLocation {
+    font-size: 8pt;
+}
+
+.spittleForm h1 {
+    font-size: 16pt;
+}
+
+span.error {
+    color: red;
+}
+
+
+/*body, ul, li, a {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*}*/
+
+/*body {*/
+/*    !*margin-top: 50px;*!*/
+/*    !*background-color: #e6e6e6;*!*/
+/*    color: #fff;*/
+/*}*/
+
+.menu {
+    font-size: 0;
+    padding: 0;
+    height: 50px;
+    padding-left: 5%;
+    background-color: #00a2ca;
+    position: relative;
+}
+
+.menubar {
+    margin: 0 auto;
+    position: absolute;
+    list-style-type: none;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.menubar li {
+    padding: 0px 5px;
+    display: inline-block;
+    cursor: pointer;
+    line-height: 50px;
+}
+
+.menubar li:hover {
+    background-color: #0095bb;
+}
+
+.menubar li.menu-value {
+    background-color: #0095bb;
+}
+
+.menubar a {
+    display: block;
+    height: 50px;
+    font-family: "微软雅黑", "Microsoft Yahei", "Hiragino Sans GB", tahoma, arial, "宋体";
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}

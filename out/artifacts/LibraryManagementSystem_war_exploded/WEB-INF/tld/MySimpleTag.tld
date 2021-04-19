@@ -1,0 +1,29 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>Example TLD</short-name>
+    <tag>
+        <name>showStatus</name>
+        <tag-class>LMS.simpleTag.bookItemStatusTag</tag-class>
+        <attribute>
+            <name>status</name>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <body-content>scriptless</body-content>
+    </tag>
+    <tag>
+        <name>showAccountStatus</name>
+        <tag-class>LMS.simpleTag.accountStatusTag</tag-class>
+        <attribute>
+            <name>status</name>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <body-content>scriptless</body-content>
+    </tag>
+    <tag>
+        <name>showBorrowingCart</name>
+        <tag-class>LMS.simpleTag.borrowingCartTag</tag-class>
+        <body-content>scriptless</body-content>
+
+    </tag>
+</taglib>

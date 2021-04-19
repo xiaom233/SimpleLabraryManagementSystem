@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../企业级/本科生实验5/ex5/WebContent/WEB-INF/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../企业级/本科生实验5/ex5/WebContent/WEB-INF/lib" recursive="false" />
+  </library>
+</component>
